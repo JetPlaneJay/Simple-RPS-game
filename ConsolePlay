@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+function playRound() {
+selection = prompt('Your choice: ');
+playerSelection = selection.toUpperCase()
+    console.log(playerSelection)
+var RPS = ["ROCK", "PAPER", "SCISSORS"];
+    var computerSelection = RPS[Math.floor(Math.random() * RPS.length)];
+   console.log(computerSelection)
+
+    if (playerSelection == computerSelection) {
+    console.log('tie!')
+    } 
+    else if (playerSelection == 'PAPER' && computerSelection == 'ROCK') {
+    console.log('PAPER COVERS ROCK WOOHOO')
+    }
+    else if (playerSelection == 'SCISSORS' && computerSelection == 'ROCK') {
+    console.log('SCISSORS SMASHED BY ROCK LAME')
+    }
+    else if (playerSelection == 'ROCK' && computerSelection == 'SCISSORS') {
+    console.log('ROCK SMASHED SCISSORS LAME')
+    }
+    else if (playerSelection == 'ROCK' && computerSelection == 'PAPER') {
+    console.log('ROCK COVERED BY PAPER LAME')
+    }
+    else if (playerSelection == 'PAPER' && computerSelection == 'ROCK') {
+    console.log('PAPER COVERS ROCK WOOHOO') 
+    }
+    else if (playerSelection == 'SCISSORS' && computerSelection == 'PAPER') {
+    console.log('SCISSORS CUT PAPER WOOHOO')
+    }
+    else {
+    console.log('Incorrect spelling')
+    }
+}
+playRound();
+
+  </script>
+</body>
+</html>
