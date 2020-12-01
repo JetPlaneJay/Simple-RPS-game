@@ -18,22 +18,22 @@ var RPS = ["ROCK", "PAPER", "SCISSORS"];
     console.log('tie!')
     } 
     else if (playerSelection == 'PAPER' && computerSelection == 'ROCK') {
-    console.log('PAPER COVERS ROCK WOOHOO')
+    console.log('PAPER covers ROCK Woohoo!')
     }
     else if (playerSelection == 'SCISSORS' && computerSelection == 'ROCK') {
-    console.log('SCISSORS SMASHED BY ROCK LAME')
+    console.log('SCISSORS smashed by ROCK lame')
     }
     else if (playerSelection == 'ROCK' && computerSelection == 'SCISSORS') {
-    console.log('ROCK SMASHED SCISSORS LAME')
+    console.log('ROCK smashed SCISSORS Woohoo!')
     }
     else if (playerSelection == 'ROCK' && computerSelection == 'PAPER') {
-    console.log('ROCK COVERED BY PAPER LAME')
+    console.log('ROCK covered BY PAPER lame')
     }
-    else if (playerSelection == 'PAPER' && computerSelection == 'ROCK') {
-    console.log('PAPER COVERS ROCK WOOHOO') 
+    else if (playerSelection == 'PAPER' && computerSelection == 'SCISSORS') {
+    console.log('PAPER cut by SCISSORS lame!') 
     }
     else if (playerSelection == 'SCISSORS' && computerSelection == 'PAPER') {
-    console.log('SCISSORS CUT PAPER WOOHOO')
+    console.log('SCISSORS cut PAPER Woohoo!')
     }
     else {
     console.log('Incorrect spelling')
